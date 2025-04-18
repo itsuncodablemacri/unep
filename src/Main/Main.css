@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.unepback {
+    display: flex;
+    justify-content: center !important;
+    flex-direction: column;
+    width: 99vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* This is what gives the parallax effect */
+    background-image: url('https://cdn.unenvironment.org/s3fs-public/styles/article_billboard_image/public/2023-03/aaron-burden-unsplash.png?h=db1ce222&itok=PkKhF2bK') !important;
+}
+
+.firstwhite {
+    width: 99vw;
+    height: 2200px;
+    background-color: rgb(255, 255, 255);
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lists {
+    color: grey;
+    display: flex !important;
+    height: 120px;
+}
+
+.text-size {
+    font-size: 20px !important;
+    font-weight: 100;
+}
+
+.turtlemaindiv {
+    display: flex;
+    flex-direction: row;
+    width: 92vw;
+    height: 95vh;
+    margin-left: 50px;
+    background-color: black;
+    position: relative;
+}
+
+.turtleleft {
+    display: flex;
+    flex-direction: column;
+}
+
+.turtlelefttop {
+    width: 840px;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://cdn.unenvironment.org/2025-04/AFP__20250328__AA_28032025_2148237__v1__HighRes__GalapagosLivingLaboratoryForPlantAn.jpg');
+}
+
+.turtleleftbottom {
+    background-color: rgb(7, 172, 217);
+    height: 20vh;
+}
+
+.turtleright {
+    display: flex;
+    flex-direction: column;
+}
+
+.turtlerighttop {
+    display: flex;
+    width: 505px;
+    height: 46vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://cdn.unenvironment.org/styles/topics_content_promo/s3/2025-04/ED-NYC%202.jpg?itok=grTJIePu');
+}
+
+.turtlerighbottom {
+    display: flex;
+    width: 505px;
+    height: 49vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://cdn.unenvironment.org/s3fs-public/styles/topics_content_promo/public/2025-04/54284422336_9d9ead8574_k_0.jpg?itok=GfStj4TH');
+}
+
+.textturtlediv {
+    border: 4px solid white;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in;
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+.textturtlediv:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+.textpadlefttop {
+    padding: 30px;
+    margin-left: 4%;
+    width: 65%;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-weight: 100;
+    margin-top: 34%;
+}
+
+.textpadleftbottom {
+    padding: 20px;
+    margin-left: 4%;
+    width: 90%;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.textpadrightttop {
+    width: 60%;
+    font-weight: 100;
+    margin-top: 33%;
+    margin-left: 4%;
+    margin-bottom: 7%; 
+    padding-left: 20px;   
+}
+.textpadrightbottom {
+    width: 60%;
+    font-weight: 100;
+    margin-top: 30%;
+    margin-left: 4%;
+    margin-bottom: 8%; 
+    padding-left: 20px;   
+}
+h2 ,h3{
+    font-weight: 400 !important;
+}
+.smallturtletext {
+    font-size: small;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.linktext {
+    font-size: large;
+    color: white;
+    font-weight: 100;
+    font-family: 'Roboto';
+    text-decoration: none;
+}
+.linktext:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.championsmain{
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    width: 92vw;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+.championimg{
+    align-content: center;
+    padding-left: 60px;
+}
+.championtext{
+ width: 950px;
+ display: flex;
+ flex-direction: column;   
+}
+.championsheading{
+    padding-top: 65px;
+    font-weight: 600;
+    font-size: 35px;
+    font-family: sans-serif;
+    color: rgb(7, 172, 217);
+}
+.championsheading:hover{
+    color: rgb(2, 154, 196);
+}
+.campionsubhead{
+    font-weight: 600;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: black;
+}
+    .campionsubhead:hover{
+        color: black;
+    }
+.campionsdescription{
+    color: black;
+    font-family: "Roboto-bold";
+    font-size: 20px;
+    font-weight:200;
+    margin-bottom: 25px;
+}
+.morelinksmain{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    width: 92vw;
+    height: 500px;
+    padding-left: 45px;
+    margin-bottom: -120px;
+}
+.morelinkscontent{
+    display: flex;
+    width: 450px;
+    flex-direction: column;
+}
+.morelinkssubtitle{
+    color: black;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 60%;
+    margin-top: 10px;
+}
+.morelinkheading{
+    font-weight: 600;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: black;
+}
+.morelinksbody{
+    display: flex;
+    row-gap: -60px;
+    flex-direction: column;
+}
+.seemorebutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.parallax {
+    width: 99vw;
+    height: 490px;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    justify-content: left;
+    align-items: center;
+    background: rgba(40, 39, 39, 0.3); /* optional: adds a slight overlay */
+}
+.parallaxtextarea{
+    width: 720px;
+}
+.parallaxheading{
+    font-family:sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.parallaxdescription{
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-left: 50px;
+    font-size: 24px;
+    margin-bottom: -200px;
+}
+.parallaxbuttondiv {
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in;
+    font-family: 'Roboto';
+    font-weight: 100;
+    width: 230px;
+    text-align: center;
+    margin-left: 100px;
+}
+.parallaxbuttondiv:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+.parallaxlinktext {
+    font-size: large;
+    color: white;
+    font-weight: 400;
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-size: 10px;
+}
+.parallaxlinktext:hover{
+    color: white;
+}
+.footerbody{
+    background-color:rgb(6, 168, 227);
+    width: 99vw;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+.footercontents{
+    height: 100%;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+}
+.footersubheadtext{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.footerdescripttext{
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: white;
+}
+.footerdescripttext:hover{
+    color: white;
+}
+.footerseperator{
+    display: flex;
+    flex-direction: row;
+}
+.footer2nd{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.footerbuttondiv {
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in;
+    font-family: 'Roboto';
+    font-weight: 100;
+    width: 320px;
+    text-align: center;
+    margin-left: 100px;
+}
